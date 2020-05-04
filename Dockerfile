@@ -3,7 +3,7 @@ FROM node:lts-alpine
 RUN apk update && apk upgrade && \
     apk add --no-cache bash coreutils
 
-WORKDIR /usr/src/paysplit-backend
+WORKDIR /usr/server-template
 
 COPY package.json ./
 
