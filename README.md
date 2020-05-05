@@ -25,11 +25,14 @@ npm install
 ```
 
 2. Create a .env file
+```
   ├── .env
   ├── .gitignore
   ├── controllers      
   ├── app.js
   └── ...
+```
+
 3. Add this to the .env file
 ```
 PORT=8080
